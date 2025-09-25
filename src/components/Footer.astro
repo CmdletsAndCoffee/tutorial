@@ -2,12 +2,16 @@
 import Social from "./Social.astro";
 ---
 
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
 <footer>
-    <div class="footer-links">
-        <p>
-            <Social platform="twitter" username="mockmyberet" />
-            <Social platform="github" username="mockmyberet" />
-            <Social platform="youtube" username="@TommyBeckerAndStuff" />
-        </p>
-    </div>
+  <Social platform="twitter" username="astrodotbuild" />
+  <Social platform="github" username="withastro" />
+  <Social platform="youtube" username="astrodotbuild" />
 </footer>
